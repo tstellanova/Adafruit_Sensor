@@ -179,7 +179,7 @@ public:
   /*! @brief Get info about the sensor itself */
   virtual void getSensor(sensor_t *) = 0;
 
-  void printSensorDetails(void);
+  // void printSensorDetails(void);
 
 private:
   bool _autoRange;
